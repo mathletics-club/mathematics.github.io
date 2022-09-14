@@ -1,0 +1,194 @@
+* {
+	background-color: ;
+	margin: 0 ;
+	padding: 0 ;
+
+}
+
+.nav-div {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 1;
+	padding: 1rem;
+}
+
+.nav2 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav3 {
+	display: inline;
+	margin: 2em;
+}
+
+.nav4 {
+	text-decoration: none;
+	color: red;
+	font-size: larger;
+}
+
+/*.nav4:hover {
+	text-decoration: underline ;
+}*/
+
+
+
+
+.S25 {
+	position: absolute;
+	top: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-h {
+	font-size: 18vw !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-h {
+	font-size: 18vw !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer0 {
+	box-sizing: border-box;
+	background-color: black;
+	color: wheat;
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center !important;	
+
+}
+
+.left-f {
+	position: relative;
+    justify-content: center !important;
+
+  border-top-style: hidden !important;
+  border-right-style: solid !important;
+  border-bottom-style: hidden !important;
+  border-left-style: hidden !important;	
+
+}
+
+
+.right-f {
+	position: relative;
+	justify-content: left !important;
+	background-color: black;	
+
+}
+
+.af {
+	color: white;
+	text-decoration: none;
+	position: relative;
+	display: block;
+	text-align: center;
+	font-size: 2em;
+	padding: 1rem;
+}
+
+.af:hover {
+	color: black;
+	background-color: white;
+	transition-delay: 0.2s;
+	-webkit-transition: .2s all;   
+    -webkit-transition-delay: .2s; 
+    -moz-transition: .2s all;   
+    -moz-transition-delay: .2s; 
+    -ms-transition: .2s all;   
+    -ms-transition-delay: .2s; 
+    -o-transition: .2s all;   
+    -o-transition-delay: .2s; 
+    transition: .2s all;   
+    transition-delay: .2s; 
+}
+
+
