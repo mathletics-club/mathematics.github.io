@@ -1,25 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Monoton&display=swap');
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Monoton&display=swap');
 
 * {
 	background-color: ;
 	margin: 0 ;
 	padding: 0 ;
+	overflow-x:  ;
 
 }
 
 .nav-div {
-	position: absolute;
+	position: fixed;
 	left: 0;
 	right: 0;
 	text-align: center;
-	z-index: 1;
+	z-index: 2;
 	padding: 1rem;
+	background-color: #111;
 }
 
 .nav2 {
@@ -36,12 +38,195 @@
 .nav4 {
 	text-decoration: none;
 	color: red;
-	font-size: larger;
+	font-size: x-large;
 }
 
-/*.nav4:hover {
-	text-decoration: underline ;
-}*/
+.sign {
+	/*position: relative;
+	right: -6vw;*/
+	margin-left: 6vw;
+
+}
+
+.sign:link, .sign:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 0.5vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.sign0 {
+	/*position: relative;
+    left: -6vw;*/
+    font-family: 'Megrim', cursive;
+    /* text-align: left; */
+    top: 0.3vw;
+    color: wheat;
+    font-weight: bold;
+    margin-right: 6vw;
+    position: relative;
+}
+
+.menu5:hover {
+	color: white;
+}
+
+
+/*LINES*/
+
+.v1 {
+  border-left: 0.1vw solid white;
+  height: 100vw;
+  position: absolute;
+  top: 0vw;
+  left: 12vw;
+}
+
+.v11 {
+  border-left: 0.1vw solid black;
+  height: 100vw;
+  position: absolute;
+  top: 55.5vw;
+  left: 12vw;
+}
+
+.v111 {
+  border-left: 0.1vw solid white;
+  height: 150vw;
+  position: absolute;
+  top: 129.5vw;
+  left: 12vw;
+}
+
+.v1111 {
+  border-left: 0.1vw solid black;
+  height: 100vw;
+  position: absolute;
+  top: 257.3vw;
+  left: 12vw;
+}
+
+.v2 {
+  border-left: 0.1vw solid white;
+  height: 100vw;
+  position: absolute;
+  top: 0vw;
+  left: 30vw;
+}
+
+.v22 {
+  border-left: 0.1vw solid black;
+  height: 100vw;
+  position: absolute;
+  top: 55.5vw;
+  left: 30vw;
+}
+
+.v222 {
+  border-left: 0.1vw solid white;
+  height: 150vw;
+  position: absolute;
+  top: 129.5vw;
+  left: 30vw;
+}
+
+.v2222 {
+  border-left: 0.1vw solid black;
+  height: 100vw;
+  position: absolute;
+  top: 257.3vw;
+  left: 30vw;
+}
+
+.v3 {
+  border-left: 0.1vw solid white;
+  height: 100vw;
+  position: absolute;
+  top: 0vw;
+  right: 15vw;
+
+}
+
+.v33 {
+  border-left: 0.1vw solid black;
+  height: 100vw;
+  position: absolute;
+  top: 55.5vw;
+  right: 15vw;
+}
+
+.v333 {
+  border-left: 0.1vw solid white;
+  height: 150vw;
+  position: absolute;
+  top: 129.5vw;
+  right: 15vw;
+}
+
+.v3333 {
+  border-left: 0.1vw solid black;
+  height: 100vw;
+  position: absolute;
+  top: 257.3vw;
+  right: 15vw;
+}
+
+.weare {
+	font-family: 'Londrina Outline', cursive;
+	font-size: 20vw;
+	color: #0000003b;
+}
+
+#we1 {
+	left: 10vw;
+    position: relative;
+}
+
+#we2 {
+	position: relative;
+    text-align: center;
+}
+
+#we3 {
+	position: relative;
+	text-align: right;
+	right: 10vw;
+}
+
+
+#section-text {
+	font-family: 'Alfa Slab One', cursive;
+	color: red;
+    font-family: sans-serif;
+    position: absolute;
+    display: flex;
+    left: 12vw;
+    font-size: 5vw;
+    z-index: 1;
+    margin-top: 8vw;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .2vw;
+}
+
+.s3s {
+	position: absolute;
+    display: flex;
+}
+
+.s3s img {
+	width: 25%;
+	height: 25%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -109,10 +294,6 @@
 
 
 
-.events-h {
-	font-size: 18vw !important;
-	font-family: 'Monoton', cursive;
-}
 
 
 
@@ -230,6 +411,84 @@
 
 
 
+.about-h {
+	font-size: 11vw !important;
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    display: flex;
+    left: 12vw;
+    z-index: 1;
+    margin-top: 0vw;
+    letter-spacing: .2vw;
+	
+}
+
+.a-above {
+	background-color: ;
+	font-family: 'Monoton', cursive;
+	
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+.contact-h {
+	font-size: 11vw !important;
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    display: flex;
+    left: 12vw;
+    z-index: 1;
+    margin-top: 0vw;
+    letter-spacing: .2vw;
+	
+}
+
+
+
+
+
+
+/*EVENTS*/
+
+
+.Events {
+	background-color: darkred !important;
+}
+
+
+.events-h {
+	font-size: 11vw !important;
+    font-family: 'Monoton', cursive;
+    position: relative;
+    display: ;
+    right: 15vw;
+    z-index: 1;
+    margin-top: 0vw;
+    letter-spacing: .2vw;
+    text-align: right;
+}
