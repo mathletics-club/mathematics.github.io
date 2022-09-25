@@ -10,14 +10,22 @@
 	<link rel="shortcut icon" type="image/x-icon" href="./nucleus/img/logo.png" />
 
 
-	<link rel="stylesheet" type="text/css" href="./style-pc.css" >
+	<link rel="stylesheet" type="text/css" href="./style-pc.css" media="screen and (min-width: 800px) and (max-width: 30000px)">
     <link rel="stylesheet" type="text/css" href="./style-android.css" >
 
-	<link rel="stylesheet" type="text/css" href="./nucleus/css/hover.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./nucleus/css/hover.css"> -->
 	<link rel="stylesheet" type="text/css" href="./nucleus/css/new.css">
 	<link rel="stylesheet" type="text/css" href="./nucleus/css/platonic.css">
 	<link rel="stylesheet" type="text/css" href="./nucleus/css/form.css">
-	<link rel="stylesheet" type="text/css" href="./nucleus/css/na.css" media="screen and (max-width: 800px)">
+
+
+
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+	
 
 
 
@@ -26,7 +34,7 @@
 </head>
 <body style="overflow-x: hidden;">
 
-	<div class="nav-div">
+	<div class="nav-div large-screen">
 		<nav class="nav2">
 			<ul class="nav2 ">
 				<li class="nav3"><a href="#Home" class="nav4 sign0">MATHLETICS</a></li>
@@ -43,20 +51,196 @@
 		</nav>
 	</div>
 
+	<div class="small-screen">
+		<nav>
+      <div class="navbar" style="position: fixed; z-index: 4; background-color: #111;">
+        <div class="container nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+          <div class="logo">
+            <h1 style="color: wheat;" class="screen-s">Mathletics</h1>
+          </div>
+          <div class="menu-items" style="background-color: rebeccapurple;">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Register</a></li>
+          </div>
+        </div>
+      </div>
+    </nav>
+	</div>
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="tabs tabs-vertical tabs-left" id='nav'>
+  <ul class="nav nav-tabs" id='navUl'>
+  </ul>
+</div>
+
 	<div>
-		<img src="./nucleus/img/Picture2.jpg" style="width: 100%; position: relative;">
+		<img src="./nucleus/img/Picture2.jpg" style="width: 100%; position: relative;" class="large-screen">
+		<img src="./nucleus/img/wall2.webp" style="width: 100%; position: relative;" class="small-screen">
 		<!-- <video width="320" height="240" controls style="width: 100%; position: relative;">
   <source src="./nucleus/map0.mp4" type="video/mp4"> -->
 	</div>
 
 
 
-<h1 style="z-index: 0; position: relative; top: -3em; opacity: 0;">Mathletics</h1>
+<h1 style="position: absolute;
+    top: 11em;
+    color: white;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 10vw;
+    font-family: ;
+    top: 20vw;
+    font-family: 'Rye', cursive;
+    font-weight: 100;">Mathletics</h1>
+<!-- 
+<button class="button5">
+	<span>Register</span>
+</button>
+ -->
+<div class="button-wrapper" data-tippy-content="Click to copy button 49">
+          <button class="button-49" role="button">Register</button>
+        </div>
 
+        <style>
+          
+          .button-49,
+          .button-49:after {
+            width: 150px;
+            height: 76px;
+            line-height: 78px;
+            font-size: 20px;
+            font-family: 'Bebas Neue', sans-serif;
+            background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+            border: 0;
+            color: #fff;
+            letter-spacing: 3px;
+            box-shadow: 6px 0px 0px #00E6F6;
+            outline: transparent;
+            position: absolute;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            overflow: hidden;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            top: 35vw;
+            border: .3vw solid white;
+          }
+
+          .button-49:after {
+            --slice-0: inset(50% 50% 50% 50%);
+            --slice-1: inset(80% -6px 0 0);
+            --slice-2: inset(50% -6px 30% 0);
+            --slice-3: inset(10% -6px 85% 0);
+            --slice-4: inset(40% -6px 43% 0);
+            --slice-5: inset(80% -6px 5% 0);
+            
+            content: 'ALTERNATE TEXT';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+            text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+            clip-path: var(--slice-0);
+          }
+
+          .button-49:hover:after {
+            animation: 1s glitch;
+            animation-timing-function: steps(2, end);
+          }
+
+          @keyframes glitch {
+            0% {
+              clip-path: var(--slice-1);
+              transform: translate(-20px, -10px);
+            }
+            10% {
+              clip-path: var(--slice-3);
+              transform: translate(10px, 10px);
+            }
+            20% {
+              clip-path: var(--slice-1);
+              transform: translate(-10px, 10px);
+            }
+            30% {
+              clip-path: var(--slice-3);
+              transform: translate(0px, 5px);
+            }
+            40% {
+              clip-path: var(--slice-2);
+              transform: translate(-5px, 0px);
+            }
+            50% {
+              clip-path: var(--slice-3);
+              transform: translate(5px, 0px);
+            }
+            60% {
+              clip-path: var(--slice-4);
+              transform: translate(5px, 10px);
+            }
+            70% {
+              clip-path: var(--slice-2);
+              transform: translate(-10px, 10px);
+            }
+            80% {
+              clip-path: var(--slice-5);
+              transform: translate(20px, -10px);
+            }
+            90% {
+              clip-path: var(--slice-1);
+              transform: translate(-10px, 0px);
+            }
+            100% {
+              clip-path: var(--slice-1);
+              transform: translate(0);
+            }
+          }
+
+          @media (min-width: 768px) {
+            .button-49,
+            .button-49:after {
+              width: 200px;
+              height: 86px;
+              line-height: 88px;
+            }
+          }
+        
+        </style>
+
+
+
+<div class="large-screen">
 <div class=""><span class="v1"></span><span class="v11"></span><span class="v111"></span></span><span class="v1111"></span></div>
 <div class=""><span class="v2"></span><span class="v22"></span><span class="v222"></span></span><span class="v2222"></span></div>
 <div class=""><span class="v3"></span><span class="v33"></span><span class="v333"></span></span><span class="v3333"></span></div>
+</div>
 
+
+
+<div class="small-screen">
+<div class=""><span class="v5"></span><span class="v55"></span><span class="v555"></span></span><span class="v5555"></span></div>
+</div>
 <!-- 
   	<a data-overlay="main-menu" href="#" class="main-menu-trigger hidden--l hidden--xl">
 				<span class="slice"></span>
@@ -89,7 +273,7 @@
 
  -->
 
-<section class="About">
+<section class="About" style="background-color: #ece8e1;">
 		<div class="a-above">
 			<h2 class="about-h">ABOUT</h2>
 		</div>
@@ -105,7 +289,7 @@
 
 
 
-	<section class="Events">
+<section class="Events">
 		<div>
 			<h2 class="events-h">EVENTS</h2>
 			<p></p>
@@ -124,87 +308,13 @@
 
 
 
-<!-- 	
-
-<section>
-
-<div class=>
-	<p id="section-text"><bold>THE SECTIONS</bold></p>
-</div>
-
-<div class="s3s">
-	<img src="./nucleus/img/s1.jpg">
-	<img src="./nucleus/img/s2.jpg">
-	<img src="./nucleus/img/s3.jpg">
-</div>
 
 
 
 
 
 
-
-<div>
-	<img src="./nucleus/img/graphic1.webp" style="width: 100%; position: relative;">
-</div>
-
-
-
-</section>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<div class="flex-container">
-  <div class="S25">
-		<svg id="icosahedron">
-			<rect width="100%" height="100%" fill="none"></rect>
-		</svg>
-		 
-  </div></div>
-
-<div class="marq-div">
-<h1 style="" class="marq-h"><marquee class="marq">Mathletics</marquee></h1>
-</div>
-
-
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br>
-
-
-
-
-
-
-
-
- -->
-
-
-
-
-
-
-<section class="Contact">
+<section class="Contact" style="background-color: #ece8e1;">
 		<div>
 			<h2 class="contact-h">CONTACT</h2>
 		</div>
@@ -389,4 +499,6 @@ function DoItTransparent(i) { isTransparent[i] = !isTransparent[i];}
 
 </script>
 </body>
+
+
 </html>
