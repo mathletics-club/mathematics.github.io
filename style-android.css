@@ -37,6 +37,7 @@ body {
 .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  height: 3.1em;
 }
 
 .nav-container {
@@ -77,8 +78,8 @@ body {
   display: block;
   height: 32px;
   width: 32px;
-  top: 20px;
-  left: 20px;
+  top: 10px;
+  left: 5px;
   z-index: 5;
   opacity: 0;
   cursor: pointer;
@@ -86,11 +87,11 @@ body {
 
 .nav-container .hamburger-lines {
   display: block;
-  height: 26px;
-  width: 32px;
+  height: 1em;
+  width: 1.5em;
   position: absolute;
-  top: 17px;
-  left: 20px;
+  top: 18px;
+  left: 8px;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -99,10 +100,10 @@ body {
 
 .nav-container .hamburger-lines .line {
   display: block;
-  height: 4px;
+  height: 0.1em;
   width: 100%;
   border-radius: 10px;
-  background: wheat;
+  background: white;
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -239,7 +240,132 @@ body {
 
 
 
+.weare {
+  font-family: 'Londrina Outline', cursive;
+  font-size: 20vw;
+  color: #0000003b;
+}
 
+#we1 {
+  left: 10vw;
+    position: relative;
+}
+
+#we2 {
+  position: relative;
+    text-align: center;
+}
+
+#we3 {
+  position: relative;
+  text-align: right;
+  right: 10vw;
+}
+
+
+/*ABOUT & CONTACT*/
+
+
+
+.about-h {
+  font-size: 11vw !important;
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    display: flex;
+    left: 12vw;
+    z-index: 1;
+    margin-top: 0vw;
+    letter-spacing: .2vw;
+  
+}
+
+.a-above {
+  background-color: ;
+  font-family: 'Monoton', cursive;
+  
+}
+
+.about-p {
+  font-size: 2vw !important;
+    font-family: serif;
+    position: absolute;
+    display: flex;
+    left: 12vw;
+    z-index: 1;
+    margin-top: 17vw;
+    letter-spacing: .2vw;
+  
+}
+
+.a-above {
+  background-color: ;
+  font-family: serif;
+  
+}
+
+
+
+
+.Contact {
+  background-color: #0000003b !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.contact-h {
+  font-size: 11vw !important;
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    display: flex;
+    left: 12vw;
+    z-index: 1;
+    margin-top: 0vw;
+    letter-spacing: .2vw;
+  
+}
+
+
+
+
+
+
+/*EVENTS*/
+
+
+.Events {
+  background-color: darkred !important;
+}
+
+
+.events-h {
+  font-size: 11vw !important;
+    font-family: 'Monoton', cursive;
+    position: relative;
+    display: ;
+    right: 15vw;
+    z-index: 1;
+    margin-top: 0vw;
+    letter-spacing: .2vw;
+    text-align: right;
+}
 
 
 
@@ -285,40 +411,46 @@ body {
 
 }*/
 
+
+#footer0 {
+  background-color: #111;
+  
+}
+
 .left-f {
-	position: relative;
+  position: relative;
     justify-content: center !important;
 
   border-top-style: hidden !important;
   border-right-style: solid !important;
   border-bottom-style: hidden !important;
-  border-left-style: hidden !important;	
+  border-left-style: hidden !important; 
 
 }
 
 
 .right-f {
-	position: relative;
-	justify-content: left !important;
-	background-color: black;	
+  position: relative;
+  justify-content: left !important;
+  background-color: black;  
 
 }
 
 .af {
-	color: white;
-	text-decoration: none;
-	position: relative;
-	display: block;
-	text-align: center;
-	font-size: 2em;
-	padding: 1rem;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  padding: 1rem;
 }
 
 .af:hover {
-	color: black;
-	background-color: white;
-	transition-delay: 0.2s;
-	-webkit-transition: .2s all;   
+  color: black;
+  background-color: white;
+  transition-delay: 0.2s;
+  -webkit-transition: .2s all;   
     -webkit-transition-delay: .2s; 
     -moz-transition: .2s all;   
     -moz-transition-delay: .2s; 
@@ -331,6 +463,12 @@ body {
 }
 
 
+
+
+
+.right-f {
+  display: none;
+}
 
 
 
